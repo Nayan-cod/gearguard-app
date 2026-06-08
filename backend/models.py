@@ -13,6 +13,9 @@ class User(Base):
     is_active = Column(Boolean, default=True)
 
 
+
+
+
 class RequestStage(str, enum.Enum):
     NEW = "new"
     IN_PROGRESS = "in_progress"
